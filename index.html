@@ -2,54 +2,189 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="src/img/faviconLN.jpg" type="jpg">
-    <!-- CSS -->
-    <link rel="stylesheet" href="src/css/bulma.min.css">
-    <link rel="stylesheet" href="src/css/style.css">
-    <!-- /CSS -->
-    <!-- font -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d84f193a4a.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="src/img/faviconLN.jpg" type="jpg">
+  <!-- CSS -->
+  <link rel="stylesheet" href="src/css/bulma.min.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <!-- /CSS -->
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d84f193a4a.js" crossorigin="anonymous"></script>
 
-    <!-- /font -->
-    <title>Portofolio - MilleCodesLN</title>
+  <!-- /font -->
+  <title>Portofolio - MilleCodesLN</title>
 </head>
 
 <body>
 
+  <!--nav-->
+  <div class="block">
+    <header class="header">
+      <a href="#" class="header-logo">Mon portfolio</a>
+      <nav class="header-menu">
+        <a href="#">Accueil</a>
+        <a href="#">A propos</a>
+        <a href="#">Nos travaux</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+  </div>
+  <!--/nav-->
 
-    <div class="block">
-        <header class="header">
-            <a href="#" class="header-logo">Mon portfolio</a>
-            <nav class="header-menu">
-                <a href="#">Accueil</a>
-                <a href="#">A propos</a>
-                <a href="#">Nos travaux</a>
-                <a href="#">Contact</a>
-            </nav>
-        </header>
+  <!--BANNER-->
+  <div class="block">
+    <div class="banner">
+      <img src="src/img/bgbanner.jpg" alt="image d'un laptop">
+      <div class="banner-content">
+        <h1 class="title is-1">Bienvenue sur mon portfolio</h1>
+        <h2 class="subtitle">Découvrez mes travaux et mon univers</h2>
+        <button class="button is-link">Contactez-moi</button>
+      </div>
     </div>
+  </div>
+  <!--/BANNER-->
 
-    <div class="block">
-        <div class="banner">
-            <img src="src/img/bgbanner.jpg" alt="image d'un laptop">
-            <div class="banner-content">
-                <h1 class="title is-1">Bienvenue sur mon portfolio</h1>
-                <h2 class="subtitle">Découvrez mes travaux et mon univers</h2>
-                <button class="button is-link">Contactez-moi</button>
-            </div>
+  <!--SECTION a propos-->
+  <div class="block">
+    <h2 class="subtitle heading-site">A propos</h2>
+    <div class="container about">
+      <div class="columns">
+        <div class="column about-single-element">
+          <i class="fas fa-code icon"></i>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ab esse voluptas non nam mollitia
+            laudantium eius, odio, quis excepturi dolores perferendis nemo recusandae enim harum dolorem accusamus odit
+            cumque. </p>
         </div>
+        <div class="column about-single-element">
+          <i class="fas fa-coffee icon"></i>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ipsa nisi dicta reiciendis facere ea?
+            Delectus modi quis at sequi fugiat, perferendis a consequuntur nisi numquam, ab, consectetur incidunt
+            voluptatum.</p>
+
+        </div>
+        <div class="column about-single-element">
+          <i class="fas fa-tractor icon"></i>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, fugiat. Fugiat, qui illo? Expedita,
+            ratione! Modi facere quod ab, amet reprehenderit est suscipit totam? Adipisci eligendi pariatur laboriosam
+            iste necessitatibus. </p>
+        </div>
+
+      </div>
     </div>
+  </div>
+
+  <!--/SECTION a propos-->
+  <!--Portfolio-->
+  <div class="block">
+    <h2 class="subtitle heading-site">Mon portfolio</h2>
+    <div class="container">
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-8">
+          <div class="tile">
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child box">
+                <!-- Put any content you want -->
+                <img src="src/img/fondheader.jpg" />
+              </article>
+              <article class="tile is-child box">
+                <!-- Put any content you want -->
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor iste enim expedita eaque saepe qui
+                  libero? Nisi, neque.</p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <!-- Put any content you want -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, facere.</p>
+                <img src="src/img/fondheader.jpg" />
+              </article>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <!-- Put any content you want -->
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor iste enim expedita eaque saepe qui
+                libero? Nisi, neque.</p>
+            </article>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <!-- Put any content you want -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, nesciunt. Aliquid qui, sunt illo enim,
+              corporis ratione explicabo quas atque possimus molestias officia laboriosam laborum! Iure nobis non ex
+              vitae!</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/Portfolio-->
+
+  <!-- Contact -->
+  <div class="block form">
+    <div class="column is-9">
+
+      <div class="field">
+        <label class="label">Name</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Text input">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Email</label>
+        <div class="control has-icons-left has-icons-right">
+          <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+          <span class="icon is-small is-left">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <span class="icon is-small is-right">
+            <i class="fas fa-exclamation-triangle"></i>
+          </span>
+        </div>
+        <p class="help is-danger">This email is invalid</p>
+      </div>
+
+      <div class="field">
+        <label class="label">Subject</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Text input">
+        </div>
+      </div>
+
+
+      <div class="field">
+        <label class="label">Message</label>
+        <div class="control">
+          <textarea class="textarea" placeholder="Textarea"></textarea>
+        </div>
+      </div>
 
 
 
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-link">Submit</button>
+        </div>
+        <div class="control">
+          <button class="button is-link is-light">Cancel</button>
+        </div>
+      </div>
 
-    <!-- JQuery-->
-    <script src="src/js/jquery-3.4.1.min.js"></script>
-    <script src="src/js/main.js"></script>
-    <!-- JQuery-->
+
+    </div>
+  </div>
+  <!-- /Contact -->
+
+
+
+  <!-- JQuery-->
+  <script src="src/js/jquery-3.4.1.min.js"></script>
+  <script src="src/js/main.js"></script>
+  <!-- JQuery-->
 </body>
 <!--crédit image : Photo by Blake Connally on Unsplash-->
 
